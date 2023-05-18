@@ -12,18 +12,29 @@
   
     <main>
             <header> <!--HEADER  -->
-              <nav class="navbar navbar-expand-lg bg-body-tertiary ">
-                <div class="container-fluid d-flex align-content-between justify-content-between">
-                  <a class="navbar-brand" href="#"> <img class="img-fluid" src="./logos/SVG/Logo full SVG.svg" style="width: 25vw; max-height: fit-content;" alt="Logo"> 
-                   
-                  </a>
-                  <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <nav class="navbar bg-body-tertiary">
+                
+                <div class="container-lg justify-content-center justify-content-lg-start"> <!-- LOGO -->
+                  <div class="col-lg-3">
+                    <a class="navbar-brand" href="#">
+                      <img src="./logos/SVG/Logo_full_SVG.svg" alt="Logo" width="100%">
+                    </a>
+                  </div>
+                </div>
+
+
+              </nav>
+
+
+
+              <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid" width="300" hight="150">
+                  <a class="navbar-brand" href="#">Navbar</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                  
                   </button>
-                  <div class="collapse navbar-collapse float-end" id="navbarNavDropdown">
-                    
-                    <ul class="navbar-nav float-end">
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
                       <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                       </li>
@@ -33,21 +44,39 @@
                       <li class="nav-item">
                         <a class="nav-link" href="#">Pricing</a>
                       </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown link
-                        </a>
-                        <ul class="dropdown-menu float-end">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
                       </li>
                     </ul>
                   </div>
                 </div>
               </nav>
+             
 
+
+
+
+              <nav>
+                <div class="barra">
+                    <div class="contenedor-logo">
+                        <img class="logo" src="logos/SVG/Logo full SVG.svg" alt="Inicio">
+                    </div>
+                    <div class="botonera">
+                            <ul class="botonera-nav">
+                                
+                                <li class="boton-nav"> <a href="#">Inicio</a>
+
+                                </li><li class="boton-nav"> <a href="pages/conocenos.html">Conocenos</a>
+                                
+                                </li><li class="boton-nav"><a href="pages/espacios.html">Espacios</a>
+                                
+                                </li><li class="boton-nav"> <a href="pages/actividades.html">Actividades</a>
+
+                                </li><li class="boton-nav"><a href="pages/contacto.html">Reservá</a></li>
+                            </ul>
+                    </div>
+                </div>
+            </nav>
 
 
             </header>
