@@ -8,16 +8,20 @@
 }
 
 @font-face {
+    font-family: anuphan;
+    src: url(fonts/Anuphan/Anuphan-VariableFont_wght.ttf);
+}
+
+@font-face {
     font-family: goldsmith_vintage;
     src: url(fonts/goldsmith_vintage.ttf);
 
 }
 /* h1 {font-size: 48px;} */
-/* h2 {font-size: 32px;}
-h3 {font-size: 32px;
-    font-family: anuphan;}
+h2 {font-size: 32px;}
+h5 {font-family: anuphan;}
 p {font-size: 32px;
-font-family: anuphan;} */
+font-family: anuphan;}
 /* li { font-size: medium;} */
 
 .titulo {
