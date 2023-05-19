@@ -12,13 +12,13 @@
     src: url(fonts/goldsmith_vintage.ttf);
 
 }
-h1 {font-size: 48px;}
-h2 {font-size: 32px;}
+/* h1 {font-size: 48px;} */
+/* h2 {font-size: 32px;}
 h3 {font-size: 32px;
     font-family: anuphan;}
 p {font-size: 32px;
-font-family: anuphan;}
-li { font-size: large;}
+font-family: anuphan;} */
+/* li { font-size: medium;} */
 
 .titulo {
     font-family: goldsmith_vintage;
@@ -41,13 +41,14 @@ header{
     }
         .contenedor-logo {
             /* height: 15vh; */
-            width: 25vw;
+            width: 35vw;
             object-fit: contain;
             flex-wrap: wrap;
 
         }
             .logo {
-               width: 40vw;
+               width: 35vw;
+               max-height: 15vh;
             }
         .botonera {
             height: 164px;
@@ -77,6 +78,17 @@ header{
         }
 
 /* IMAGEN  PRINCIPAL */
+
+    
+
+.contenedor-carousel {
+  
+    
+}
+
+
+
+
 
 .seccion-imagen-principal {
     height: 50vw;
