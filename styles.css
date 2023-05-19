@@ -296,7 +296,7 @@ header{
 /* PÍE DE PÁGINA */
 
 footer {
-    background-color: #DAF2EF;
+    background: rgba(242, 242, 242, 0.6);
     font-size: 24PX;
     display: flex;
     justify-content: space-around;
@@ -308,7 +308,4 @@ footer {
     justify-content: center;
     margin-top: 50px;
 
-}
-.mapa {
-    padding: 25px;
 }
