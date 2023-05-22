@@ -61,7 +61,7 @@
               
                 
                 
-        <main class="caontainer-fluid justify-content-center"> 
+        <main> 
           
           <section> <!-- CAROUSEL -->
             <!-- CAROUSEL MD-LG -->
@@ -131,62 +131,125 @@
           </section>
  
                 
-            <!-- DESCRIPCIÓN PRINCIPAL-->
-            
-            <section class="container-fluid row mt-5 justify-content-center">
-              <div class="row justify-content-center ">
+          <!-- DESCRIPCIÓN PRINCIPAL-->
+          <section class="container-fluid d-flex  mt-3 justify-content-center">
+            <div class="container-fluid  ">
 
-                                 
-                  <div class="row justify-content-center flex-wrap">
-                    <div class="col-md-5 col-10"> <!-- TEXTO DESCRPICIÓN -->
-                      <h1 class="mb-2">      Un lugar donde <br>
-                        el tiempo se detiene</h1>
-                      <p class="mt-2">La Casa de Campo Don Claudio es un lugar creado con cariño para poder disfrutar de la tranquilidad del campo, la conexión con la naturaleza y el descanso.
-                        <br><br>
-                        Al venir te encontrarás con un lugar acogedor donde encontrarás todo lo que necesites, sin tener que preocuparte por nada.
-                      </p>
-                    </div>
-
-                    <div class="col-md-5 col-10 flex-wrap justify-content-center"> <!-- foto -->
-
-                      <img src="./images/cards/Contrafrente-card.svg" class="object-fit-fill justify-content-end" alt="Contrafrente"  width="100%">
-
-                    </div>
-
-                  </div>
+                                
+                <div class="row justify-content-center  flex-wrap">
+                  <div class="col-md-5 col-10"> <!-- TEXTO DESCRPICIÓN -->
+                    <h1 class="mb-3 text-center text-md-start">      Un lugar donde el tiempo se detiene</h1>
                     
-              </div>
-            </section>
-                
-            <!-- CARACTERÍSTICAS PRINCIPALES -->
-            <section class="container g-5 justify-content-center  mt-5">
-                <div class="container-fluid row flex-wrap justify-content-around">
-                  <div class="col-5 col-md-2 cont-car p-3"><!-- ícono 1 -->
-                      <img src="icons/Camas.png" alt="">
-                      <h2>COMODIDADES</h2>
+                    <p class="mt-3 text-center text-md-end">La Casa de Campo Don Claudio es un lugar creado con cariño para poder disfrutar de la tranquilidad del campo, la conexión con la naturaleza y el descanso.
+                      <br><br>
+                      Al venir te encontrarás con un lugar acogedor donde encontrarás todo lo que necesites, sin tener que preocuparte por nada.
+                    </p>
                   </div>
-                  <div class="col-5 col-md-2 cont-car p-3"><!-- ícono 2 -->
-                      <img src="icons/Naturaleza.png" alt="">
-                      <h2>TRANQUILIDAD</h2>
+
+                  <div class="col-md-6 col-10 flex-wrap justify-content-end"> <!-- foto -->
+
+                    <img src="./images/cards/Contrafrente-card.svg" class="object-fit-fill justify-content-end" alt="Contrafrente"  width="100%">
+
                   </div>
-                  <div class="col-5 col-md-2 cont-car p-3">
-                      <!-- ícono 3 -->
-                      <img src="icons/sol.png" alt="">
-                      <h2>NATURALEZA</h2>
-                  </div>
-                  <div class="col-5 col-md-2  cont-car p-3"><!-- ícono 4 -->
-                      <img src="icons/Lavarropas.png" alt="">
-                      <h2>SERVICIOS</h2>
-                  </div>
+
                 </div>
-            </section>
+                  
+            </div>
+          </section>
+              
+          <!-- CARACTERÍSTICAS PRINCIPALES -->
+          <section class="container-fluid g-5 m-4 justify-content-center">
+            <div class="container-fluid row flex-wrap justify-content-around">
+              <div class="col-5 col-md-2 cont-car p-3"><!-- ícono 1 -->
+                <img src="icons/Camas.png" alt="">
+                <h2>COMODIDADES</h2>
+              </div>
+              <div class="col-5 col-md-2 cont-car p-3"><!-- ícono 2 -->
+                <img src="icons/Naturaleza.png" alt="">
+                <h2>TRANQUILIDAD</h2>
+              </div>
+              <div class="col-5 col-md-2 cont-car p-3"><!-- ícono 3 -->
+                <img src="icons/sol.png" alt="">
+                <h2>NATURALEZA</h2>
+              </div>
+              <div class="col-5 col-md-2 cont-car p-3"><!-- ícono 4 -->
+                <img src="icons/Lavarropas.png" alt="">
+                <h2>SERVICIOS</h2>
+              </div>
+            </div>
+          </section>
+          
+         
+          <!-- FOTO FACHADA -->
+          <section class="container-fluid m-2 row justify-content-center">
+            <div class=" col-10 ">
+              <img src="./images/conocenos/casa-1.webp" width="100%" alt="Fachada">
+            </div>
+          </section>
         
-        
+        <!-- ESPACIOS -->
+
+        <section>
+
+          <div class="container mt-3">
+              <h2>Espacios</h2>
+              <br>
+              <!-- Nav tabs -->
+              <ul class="nav nav-tabs" role="tablist">
+
+                <li class="nav-item">
+                  <a class="nav-link active" data-bs-toggle="tab" href="#home">Habitación Principal</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#menu1">Parrilla</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#menu2">Pileta</a>
+                </li>
+
+              </ul>
+          
+              <!-- Tab panes -->
+
+              <div class="tab-content">
+                
+                <div id="home" class="container tab-pane active"><br>
+                  <h3>Habitación Principal</h3>
+                  <div class="row justify-content-center">
+                    <img src="./images/espacios/habitacion-grande.jpg"  width="80%" alt="">
+                  </div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                
+                <div id="menu1" class="container tab-pane fade"><br>
+                    <h3>Parrilla</h3>
+                    <div class="row justify-content-center">
+                      <img src="./images/espacios/parrilla.webp"  width="80%" alt="">
+                    </div>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <div id="menu2" class="container tab-pane fade"><br>
+                    <h3>Pileta</h3>
+                    <div class="row justify-content-center">
+                      <img src="./images/espacios/pileta.webp"  width="80%" alt="">
+                    </div>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                
+                </div>
+              </div>
+
+            </div>
+          </section>
+
+
         </main>
         <!-- FOOTER -->
         <footer>
           <div class="container-fluid">
-            <footer class="py-5">
+            <footer class="p-5">
               <div class="row g-5">
                 <div class="col-md-6 col-xl-3 p-3 ">
                   <h3 class="">Casa de Campo</h3>
