@@ -17,7 +17,7 @@
     src: url(fonts/goldsmith_vintage.ttf);
 
 }
-/* h1 {font-size: 48px;} */
+h1 {font-size: 5rem;}
 h2 {font-size: 32px;}
 h5 {font-family: anuphan;}
 p {font-size: 32px;
@@ -29,20 +29,18 @@ font-family: anuphan;}
 }
 
 /* BARRA DE NAVEGACIÓN */
-header{
-    background: rgba(242, 242, 242, 0.6);
+header {
+    background: rgba(242, 242, 242, 0.9);
     width: 100vw;
 } 
    
-
 .barra {
-    background: rgba(242, 242, 242, 0.6);
+    background: rgba(242, 242, 242, 0.9);
     width: 100vw;
-      /*   ;
-        height: 15vh;
-        width: 100%; */
-     
+    z-index: 101;
     }
+
+
         .contenedor-logo {
             /* height: 15vh; */
             width: 35vw;
@@ -80,6 +78,8 @@ header{
         .contenedor-toggler {
             height: 5px;
         }
+
+
 
 /* IMAGEN  PRINCIPAL */
 
@@ -300,16 +300,12 @@ header{
 /* PÍE DE PÁGINA */
 
 footer {
-    background: rgba(242, 242, 242, 0.6);
-    font-size: 24PX;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    background: rgba(242, 242, 242);
 }
-.botonera-footer {
+/* .botonera-footer {
     width: 450px;
     display: flex;
     justify-content: center;
     margin-top: 50px;
 
-}
+} */
