@@ -61,7 +61,7 @@
               
                 
                 
-        <main class="caontainer-fluid"> 
+        <main class="caontainer-fluid justify-content-center"> 
           
           <section> <!-- CAROUSEL -->
             <!-- CAROUSEL MD-LG -->
@@ -70,23 +70,23 @@
                   <div class="carousel-inner ">
                     <div class="carousel-item active justify-content-center " data-bs-interval="1000">
                      <img src="./images/carousel/carousel_1.svg" class="d-block w-100" alt="..." class="imagen-carousel">
+                    </div>
+                    <div class="carousel-item justify-content-center" data-bs-interval="2000">
+                      <img src="./images/carousel/carousel_2.svg" class="d-block w-100" alt="..." class="imagen-carousel">
+                    </div>
+                    <div class="carousel-item justify-content-center" data-bs-interval="3000">
+                      <img src="./images/carousel/carousel_3.svg" class="d-block w-100" alt="..." class="imagen-carousel">
+                    </div>
                   </div>
-                  <div class="carousel-item justify-content-center" data-bs-interval="2000">
-                    <img src="./images/carousel/carousel_2.svg" class="d-block w-100" alt="..." class="imagen-carousel">
-                  </div>
-                  <div class="carousel-item justify-content-center" data-bs-interval="3000">
-                    <img src="./images/carousel/carousel_3.svg" class="d-block w-100" alt="..." class="imagen-carousel">
-                  </div>
-                </div>
 
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
               </div> 
         
@@ -113,18 +113,18 @@
                       <img src="./images/carousel/mb_carousel_5_habitación.svg" class="d-block w-100" alt="..." class="imagen-carousel">
                     </div>
                     
-                  </div>
                   
-                </div>
-
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev" ha>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
+
+              </div>
+                  
               </div>  
 
 
@@ -133,22 +133,23 @@
                 
             <!-- DESCRIPCIÓN PRINCIPAL-->
             
-            <section class="container-fluid row  m-5">
-              <div class="row ">
+            <section class="container-fluid row mt-5 justify-content-center">
+              <div class="row justify-content-center ">
 
                                  
                   <div class="row justify-content-center flex-wrap">
-                    <div class="col-md-5 col-sm-10"> <!-- TEXTO DESCRPICIÓN -->
-                      <h1 class="display-1 mb-2">Un lugar donde el tiempo se detiene</h1>
+                    <div class="col-md-5 col-10"> <!-- TEXTO DESCRPICIÓN -->
+                      <h1 class="mb-2">      Un lugar donde <br>
+                        el tiempo se detiene</h1>
                       <p class="mt-2">La Casa de Campo Don Claudio es un lugar creado con cariño para poder disfrutar de la tranquilidad del campo, la conexión con la naturaleza y el descanso.
                         <br><br>
                         Al venir te encontrarás con un lugar acogedor donde encontrarás todo lo que necesites, sin tener que preocuparte por nada.
                       </p>
                     </div>
 
-                    <div class="col-md-5 col-sm-10 flex-wrap"> <!-- foto -->
+                    <div class="col-md-5 col-10 flex-wrap justify-content-center"> <!-- foto -->
 
-                      <img src="./images/cards/Contrafrente-card.svg" alt="Contrafrente"  width="100%">
+                      <img src="./images/cards/Contrafrente-card.svg" class="object-fit-fill justify-content-end" alt="Contrafrente"  width="100%">
 
                     </div>
 
@@ -158,22 +159,27 @@
             </section>
                 
             <!-- CARACTERÍSTICAS PRINCIPALES -->
-            <section class="caracteristicas m-5">
-                <div class="cont-car"><!-- ícono 1 -->
-                    <img src="icons/Camas.png" alt="">
-                    <h2>COMODIDADES</h2></div>
-                <div class="cont-car"><!-- ícono 2 -->
-                    <img src="icons/Naturaleza.png" alt="">
-                    <h2>TRANQUILIDAD</h2>
+            <section class="container g-5 justify-content-center  mt-5">
+                <div class="container-fluid row flex-wrap justify-content-around">
+                  <div class="col-5 col-md-2 cont-car p-3"><!-- ícono 1 -->
+                      <img src="icons/Camas.png" alt="">
+                      <h2>COMODIDADES</h2>
+                  </div>
+                  <div class="col-5 col-md-2 cont-car p-3"><!-- ícono 2 -->
+                      <img src="icons/Naturaleza.png" alt="">
+                      <h2>TRANQUILIDAD</h2>
+                  </div>
+                  <div class="col-5 col-md-2 cont-car p-3">
+                      <!-- ícono 3 -->
+                      <img src="icons/sol.png" alt="">
+                      <h2>NATURALEZA</h2>
+                  </div>
+                  <div class="col-5 col-md-2  cont-car p-3"><!-- ícono 4 -->
+                      <img src="icons/Lavarropas.png" alt="">
+                      <h2>SERVICIOS</h2>
+                  </div>
                 </div>
-                <div class="cont-car">
-                    <!-- ícono 3 -->
-                    <img src="icons/sol.png" alt="">
-                    <h2>NATURALEZA</h2></div>
-                <div class="cont-car"><!-- ícono 4 -->
-                    <img src="icons/Lavarropas.png" alt="">
-                    <h2>SERVICIOS</h2></div>
-                </section>
+            </section>
         
         
         </main>
