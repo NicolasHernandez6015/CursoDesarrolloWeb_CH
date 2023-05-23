@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: anuphan, goldsmith_vintage;
-    font-size: 2vw; 
 }
 @font-face {
     font-family: anuphan;
@@ -15,6 +14,23 @@
     src: url(fonts/goldsmith_vintage.ttf);
 }
 
+
+@media (max-width: 800px) {
+    h1 {font-size: 8vw;
+    font-weight: 200;}
+    h2 {font-size: 4vw;}
+    h3 {font-size: 3vw;}
+    h5 {font-size: 2.5vw;}
+    h6 {font-size: 2.0vw;}
+    p {font-size: 4vw;
+    font-family: anuphan;}
+    li {font-size: 4vw;}
+    }
+    
+
+
+
+  @media (min-width: 800px) {
 h1 {font-size: 6vw;
 font-weight: 200;}
 h2 {font-size: 4vw;}
@@ -24,6 +40,7 @@ h6 {font-size: 2.0vw;}
 p {font-size: 2vw;
 font-family: anuphan;}
 li {font-size: 2vw;}
+}
 
 
 /* BARRA DE NAVEGACIÓN */
