@@ -18,14 +18,17 @@
 @media (max-width: 800px) {
     h1 {font-size: 8vw;
     font-weight: 200;}
-    h2 {font-size: 4vw;}
-    h3 {font-size: 3vw;}
+    h2 {font-size: 7vw;}
+    h3 {font-size: 5vw;}
     h5 {font-size: 2.5vw;}
     h6 {font-size: 2.0vw;}
     p {font-size: 4vw;
     font-family: anuphan;}
     li {font-size: 4vw;}
+    svg {width: 16px;
+    height: 16px;}
     }
+
     
 
 
@@ -94,33 +97,8 @@ li {font-size: 2vw;}
             
 /* CONOCENOS */
 
-.conocenos {
-    margin: 2vh;
-    display: flex;
-    flex-direction: column;
-}
 
-    .titulo-conocenos{
-        margin: 1vh;
-        display: flex;
-    }
-    .contenido-conocenos{
-        display: flex;
 
-    }
-
-        .texto-conocenos{
-            margin: 1vh;        
-            display: flex;
-            width: 50%;
-
-        }
-        .imagen-conocenos{
-
-            width: 50%;
-            object-fit: contain;
-
-        }
             .imagen-conocenos img {
                 width: 100%;
                 object-fit: contain;
