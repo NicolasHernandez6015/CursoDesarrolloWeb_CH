@@ -3,86 +3,43 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: anuphan, goldsmith_vintage; 
-    
+    font-family: anuphan, goldsmith_vintage;
+    font-size: 2vw; 
 }
-
 @font-face {
     font-family: anuphan;
     src: url(fonts/Anuphan/Anuphan-VariableFont_wght.ttf);
 }
-
 @font-face {
     font-family: goldsmith_vintage;
     src: url(fonts/goldsmith_vintage.ttf);
-
 }
+
 h1 {font-size: 6vw;
 font-weight: 200;}
-h2 {font-size: 2vw;}
-h5 {font-family: anuphan;}
-p {font-size: 1.5vw;
+h2 {font-size: 4vw;}
+h3 {font-size: 3vw;}
+h5 {font-size: 2.5vw;}
+h6 {font-size: 2.0vw;}
+p {font-size: 2vw;
 font-family: anuphan;}
-/* li { font-size: medium;} */
+li {font-size: 2vw;}
 
-.titulo {
-    font-family: goldsmith_vintage;
-}
 
 /* BARRA DE NAVEGACIÓN */
-header {
-    background: rgba(242, 242, 242, 0.9);
-    width: 100vw;
-} 
    
 .barra {
     background: rgba(242, 242, 242, 0.9);
     width: 100vw;
     z-index: 101;
     }
-
-
-        .contenedor-logo {
-            /* height: 15vh; */
-            width: 35vw;
-            object-fit: contain;
-            flex-wrap: wrap;
-
+    .contenedor-toggler {
+        height: 5px;
+    }
+    .logo {
+          height: 10vw;
         }
-            .logo {
-               height: 10vw;
-            }
-
-
-        .botonera {
-            height: 164px;
-            width: 70vw;
-            display: flex;
-            justify-content: flex-end;
-            flex-wrap: wrap;
-            font-size: 32px;
-            font-family: anuphan;
-        }
-
-            .botonera-nav {
-                width: 50vw;
-                display: flex;
-                justify-content: space-around;
-                flex-wrap: wrap;
-                align-items: end;
-                }
-                    .boton-nav {
-                        display: inline-block;
-                        margin: 2%;
-                        display: flex;
-                        flex-wrap: wrap;
-                    } 
-        .contenedor-toggler {
-            height: 5px;
-        }
-
-
-
+        
 /* BOTONERITA */
 
 .botonerita {
@@ -92,77 +49,32 @@ header {
     position: sticky;
 }
 
-/* IMAGEN  PRINCIPAL */
-
-    
-
-
-
-
-
-.seccion-imagen-principal {
-    height: 50vw;
-    width: 100%;
-    display: inline-block;
-    position: relative; 
-    overflow: hidden;
+.botonerita_sm {
+    background: rgba(242, 242, 242, 0.9);
+    border-radius: 7px 0px 0px 0px;
+    z-index: 0;
+    position: sticky;
 }
-    .contenedor-imagen-principal {
-        height: 100%;
-        width: 100%;
-        overflow: hidden;
-        object-fit: cover;
-    }
-
-        .imagen-principal {
-            object-fit: cover;
-            height: 100%;
-            width: 100%;
-            overflow: hidden;
-        }
-
-/* INICIO */
-    /* DESCRIPCIÓN PRINCIPAL */
-    .descripcion {
-        margin: 50px 10px;    
-    }
-        .titulo{
-            text-align: center;
-        }
-        .parrafo {
-            font-family: anuphan;
-            font-weight: 250;
-            text-align: center;
-            margin: 30px 0;
-        }
-
 
     /* CARACTERÍSTICAS */
 
-    .caracteristicas {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 10vh;
-    font-size: 12px;
-    }
 
-    .cont-car {
-        display: flex;
-        flex-direction: column;
-        justify-content: end;
-        align-items: center;
-        text-align: center;
-        
-        }
-        .cont-car img {
-            object-fit: contain;
-            width: 100%;
-            height: auto;
-            margin: 5px 0 5px 0;
-        }
-
-
+    
+        .cont-car {
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: center;
+            text-align: center;
+            
+            }
+            .cont-car img {
+                object-fit: contain;
+                width: 100%;
+                height: auto;
+                margin: 5px 0 5px 0;
+            }
+            
 /* CONOCENOS */
 
 .conocenos {
@@ -249,8 +161,6 @@ header {
             object-fit: contain;
 
         }
-
-
         .texto-actividades{
             margin: 1vh;        
             width: 70%;
@@ -272,49 +182,10 @@ header {
 
 
 
-/* FORMULARIO - CONTACTO */
 
-.contacto {
-    margin: 5vh;
-    display: flex;
-    justify-content: center;
-    }
-    .contenedor-formulario {
-        height: 50vw;
-        width: 80%;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin: 5vh;
-
-    }
-        .datos {
-            width: 45%;
-            display: flex;
-            flex-direction: column;
-        }
-            .caja-formulario {
-                display: flex;
-                flex-direction: column;
-                margin: 10px;
-            }   
-        .consulta {
-            display: flex;
-            flex-direction: column;
-            width: 45%;
-            margin: 10px;
-        } 
-            
 
 /* PÍE DE PÁGINA */
 
 footer {
     background: rgba(242, 242, 242);
 }
-/* .botonera-footer {
-    width: 450px;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-
-} */
