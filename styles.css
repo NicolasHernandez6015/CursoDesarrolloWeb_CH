@@ -14,7 +14,7 @@
     src: url(fonts/goldsmith_vintage.ttf);
 }
 
-
+/* MEDIA QUORIES */
 @media (max-width: 800px) {
     h1 {font-size: 8vw;
     font-weight: 200;}
@@ -28,11 +28,7 @@
     svg {width: 16px;
     height: 16px;}
     }
-
-    
-
-
-
+  
   @media (min-width: 800px) {
 h1 {font-size: 6vw;
 font-weight: 200;}
@@ -59,45 +55,44 @@ li {font-size: 2vw;}
     .logo {
           height: 10vw;
         }
+ 
         
 /* BOTONERITA */
 
-.botonerita {
-    background: rgba(242, 242, 242, 0.9);
-    border-radius: 10px 0 0 10px;
-    z-index: 0;
-    position: sticky;
-}
+    .botonerita {
+        background: rgba(242, 242, 242, 0.9);
+        border-radius: 10px 0 0 10px;
+        z-index: 0;
+        position: sticky;
+    }
 
-.botonerita_sm {
-    background: rgba(242, 242, 242, 0.9);
-    border-radius: 7px 0px 0px 0px;
-    z-index: 0;
-    position: sticky;
-}
-
-    /* CARACTERÍSTICAS */
+    .botonerita_sm {
+        background: rgba(242, 242, 242, 0.9);
+        border-radius: 7px 0px 0px 0px;
+        z-index: 0;
+        position: sticky;
+    }
 
 
-    
-        .cont-car {
-            display: flex;
-            flex-direction: column;
-            justify-content: end;
-            align-items: center;
-            text-align: center;
-            
-            }
-            .cont-car img {
-                object-fit: contain;
-                width: 100%;
-                height: auto;
-                margin: 5px 0 5px 0;
-            }
+/* CARACTERÍSTICAS */
+
+    .cont-car {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        text-align: center;
+        
+        }
+        .cont-car img {
+            object-fit: contain;
+            width: 100%;
+            height: auto;
+            margin: 5px 0 5px 0;
+        }
+
             
 /* CONOCENOS */
-
-
 
             .imagen-conocenos img {
                 width: 100%;
@@ -121,7 +116,6 @@ li {font-size: 2vw;}
     .contenido-espacios{
         display: flex;
         justify-content: center;
-
 }
         .caja-espacio{
             margin: 1vh;        
@@ -130,8 +124,6 @@ li {font-size: 2vw;}
             display: flex;
             flex-direction: column;
             align-items: center;
-
-
         }
             .caja-espacio img{
                 width: 100%;
@@ -175,12 +167,11 @@ li {font-size: 2vw;}
             margin: 1vh;
             }
 
-
-
-
-
 /* PÍE DE PÁGINA */
 
 footer {
     background: rgba(242, 242, 242);
 }
+
+/* Página realizada por:
+☼ Nicolás Hernández _ DOX ☼ */
