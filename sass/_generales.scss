@@ -1,0 +1,20 @@
+/* GENERALES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: anuphan, goldsmith_vintage;
+}
+@font-face {
+    font-family: anuphan;
+    src: url(fonts/Anuphan/Anuphan-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: goldsmith_vintage;
+    src: url(fonts/goldsmith_vintage.ttf);
+}
+
+
+a:hover { color: rgba(33, 37, 41, 0.24) !important
+}
+

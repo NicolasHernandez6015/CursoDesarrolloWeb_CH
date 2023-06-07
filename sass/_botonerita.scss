@@ -1,0 +1,17 @@
+/* BOTONERITA */
+
+.botonerita {
+    background: rgba(242, 242, 242, 0.9);
+    border-radius: 10px 0 0 10px;
+    z-index: 0;
+    position: sticky;
+}
+
+.botonerita_sm {
+    background: rgba(242, 242, 242, 0.9);
+    border-radius: 7px 0px 0px 0px;
+    z-index: 0;
+    position: sticky;
+}
+
+svg:hover {opacity: 0.75;}

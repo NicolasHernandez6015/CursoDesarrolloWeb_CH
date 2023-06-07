@@ -7,7 +7,7 @@
         <title>Inicio - Casa de Campo Don Claudio</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="./sass/style.css">
         <link rel="shortcut icon" href="../logos/SVG/Logo full SVG.svg">
     </head>
   
@@ -29,15 +29,15 @@
 
 
                   <!-- LOGO -->
-                    <div class="col-md-3 col-lg-2"> 
+                    <div class="col-md-3 col-lg-2 "> 
                       <a class="navbar-brand" href="#">
-                        <img src="./logos/SVG/Logo_full_SVG.svg" alt="Logo" class="logo" >
+                        <img src="./assets/logos/SVG/Logo_full_SVG.svg" alt="Logo" class="logo" >
                       </a>
                     </div>
 
                  
                   <!-- BARRA -->
-                  <div class="collapse navbar-collapse flex-sm-wrap justify-content-sm-center justify-content-md-end" id="navbarTogglerDemo03">
+                  <div class="collapse navbar-collapse flex-sm-wrap justify-content-center justify-content-lg-end d-flex" id="navbarTogglerDemo03">
                     <ul class="navbar-nav mb-2 mb-lg-0">
                       <li class="nav-item">
                         <a class="nav-link disabled" aria-current="page" href="#">Inicio</a>
@@ -68,7 +68,7 @@
             <div class="container-fluid g-0 d-none d-md-block">
 
               <video width="100%" height="" autoplay muted loop preload="auto">
-                <source src="./video/Promo-prueba.mp4" type="video/mp4">
+                <source src="./assets/video/Promo-prueba.mp4" type="video/mp4">
               </video>
                           
             </div>
@@ -76,7 +76,7 @@
             <div class="container-fluid g-0 d-block d-md-none">
 
               <video width="100%" height="" autoplay muted loop preload="auto">
-                <source src="./video/Promo_prueb 1080x1080.mp4" type="video/mp4">
+                <source src="./assets/video/Promo_prueb 1080x1080.mp4" type="video/mp4">
               </video>
                           
             </div>
@@ -118,19 +118,20 @@
           <section class="container-fluid d-flex  mt-3 justify-content-center">
             <div class="container-fluid  ">
                                
-                <div class="row justify-content-center  flex-wrap">
-                  <div class="col-md-5 col-11"> <!-- TEXTO DESCRPICIÓN -->
-                    <h1 class="mb-3 text-center text-md-start">      Un lugar donde el tiempo se detiene</h1>
-                    
-                    <p class="mt-3 text-center text-md-end">La Casa de Campo Don Claudio es un lugar creado con cariño para poder disfrutar de la tranquilidad del campo, la conexión con la naturaleza y el descanso.
-                      <br><br>
-                      Al venir te encontrarás con un lugar acogedor donde encontrarás todo lo que necesites, sin tener que preocuparte por nada.
-                    </p>
+                <div class="row justify-content-center  flex-wrap ">
+                  <div class="col-xl-4 col-10 d-flex justify-content-center flex-column  "> <!-- TEXTO DESCRPICIÓN -->
+                    <h1 class="mb-3 col-12 col-xl-11 text-center text-md-start">      Un lugar donde el tiempo se detiene</h1>
+                    <div>
+                      <p class="mt-3  text-center text-md-end col-12 col-xl-10 float-end">La Casa de Campo Don Claudio es un lugar creado con cariño para poder disfrutar de la tranquilidad del campo, la conexión con la naturaleza y el descanso.
+                      </p>
+                      <p class="mt-3 text-center text-md-end col-12 col-xl-10 float-end"> Al venir te encontrarás con un lugar acogedor donde encontrarás todo lo que necesites, sin tener que preocuparte por nada.
+                      </p>
+                    </div> 
                   </div>
 
-                  <div class="col-md-6 col-10 flex-wrap justify-content-end"> <!-- foto -->
+                  <div class="col-md-4 col-10 flex-wrap justify-content-end"> <!-- foto -->
 
-                    <img src="./images/cards/Contrafrente-card.svg" class="object-fit-fill justify-content-end" alt="Contrafrente"  width="100%">
+                    <img src="./assets/images/cards/Contrafrente-card.svg" class="object-fit-fill justify-content-end" alt="Contrafrente"  width="100%">
 
                   </div>
 
@@ -143,19 +144,19 @@
           <section class="container-fluid d-flex g-5 mt-4 justify-content-center">
             <div class="container-fluid row col-10 flex-wrap justify-content-around">
               <div class="col-5 col-md-2 cont-car p-3"><!-- ícono 1 -->
-                <img src="icons/Camas.png" alt="">
+                <img src="./assets/icons/Camas.png" alt="">
                 <h6>COMODIDADES</h6>
               </div>
               <div class="col-5 col-md-2 cont-car p-3"><!-- ícono 2 -->
-                <img src="icons/Naturaleza.png" alt="">
+                <img src="./assets/icons/Naturaleza.png" alt="">
                 <h6>TRANQUILIDAD</h6>
               </div>
               <div class="col-5 col-md-2 cont-car p-3"><!-- ícono 3 -->
-                <img src="icons/sol.png" alt="">
+                <img src="./assets/icons/sol.png" alt="">
                 <h6>NATURALEZA</h6>
               </div>
               <div class="col-5 col-md-2 cont-car p-3"><!-- ícono 4 -->
-                <img src="icons/Lavarropas.png" alt="">
+                <img src="./assets/icons/Lavarropas.png" alt="">
                 <h6>SERVICIOS</h6>
               </div>
             </div>
@@ -165,7 +166,7 @@
           <!-- FOTO FACHADA -->
           <section class="container-fluid d-flex mt-2 row justify-content-center">
             <div class=" col-10 ">
-              <img src="./images/conocenos/casa-1.webp" width="100%" alt="Fachada">
+              <img src="./assets/images/conocenos/casa-1.webp" width="100%" alt="Fachada">
             </div>
           </section>
         
@@ -199,7 +200,7 @@
                   <div id="home" class="container tab-pane active"><br>
                     <h3>Habitación Principal</h3>
                     <div class="row justify-content-center">
-                      <img src="./images/espacios/habitacion-grande.jpg"  width="80%" alt="">
+                      <img src="./assets/images/espacios/habitacion-grande.jpg"  width="80%" alt="">
                     </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                   </div>
@@ -207,7 +208,7 @@
                   <div id="menu1" class="container tab-pane fade"><br>
                       <h3>Parrilla</h3>
                       <div class="row justify-content-center">
-                        <img src="./images/espacios/parrilla.webp"  width="80%" alt="">
+                        <img src="./assets/images/espacios/parrilla.webp"  width="80%" alt="">
                       </div>
                       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                   </div>
@@ -215,7 +216,7 @@
                   <div id="menu2" class="container tab-pane fade"><br>
                       <h3>Pileta</h3>
                       <div class="row justify-content-center">
-                        <img src="./images/espacios/pileta.webp"  width="80%" alt="">
+                        <img src="./assets/images/espacios/pileta.webp"  width="80%" alt="">
                       </div>
                       <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
                   
@@ -242,7 +243,7 @@
 
                   <div class="imagen-conocenos col-10 col-xl-5">
                       
-                      <img src="./images/conocenos/clide-fabian.jpg" alt="Fabián y Clide los esperan">
+                      <img src="./assets/images/conocenos/clide-fabian.jpg" alt="Fabián y Clide los esperan">
                   
                   </div>
               </div>
