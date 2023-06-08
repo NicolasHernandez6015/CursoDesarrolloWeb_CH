@@ -27,3 +27,28 @@
                 height: 120%;
                 object-fit: cover;
             }
+            .contenedor_texto-espacio {
+                position: absolute;
+               overflow: hidden;
+                opacity: 0;
+                background-color: rgba($color: #737373, $alpha: 0.75);
+                margin: auto;
+               width: 30%;
+               height: 31vw;
+               font-size: 18px;
+               color: white;
+               transition: opacity 0.3s;
+               p { font-size: 1vw; 
+                text-align: center;
+                margin-top: 50%;
+                 margin-bottom: 50%;}
+             p:hover {font-size: 1vw;}
+            }
+  
+            .contenedor_texto-espacio:hover {
+                opacity: 1;
+            }
+@media (max-width: 500px) { 
+    .contenedor_texto-espacio { display: none;
+}
+}

@@ -72,6 +72,10 @@ svg:hover {
   margin: 5px 0 5px 0;
 }
 
+.img_caracteristica:hover {
+  opacity: 0.5;
+}
+
 /* CONOCENOS */
 .imagen-conocenos img {
   width: 100%;
@@ -113,6 +117,37 @@ svg:hover {
      object-fit: cover;
 }
 
+.contenedor_texto-espacio {
+  position: absolute;
+  overflow: hidden;
+  opacity: 0;
+  background-color: rgba(115, 115, 115, 0.75);
+  margin: auto;
+  width: 30%;
+  height: 31vw;
+  font-size: 18px;
+  color: white;
+  transition: opacity 0.3s;
+}
+.contenedor_texto-espacio p {
+  font-size: 1vw;
+  text-align: center;
+  margin-top: 50%;
+  margin-bottom: 50%;
+}
+.contenedor_texto-espacio p:hover {
+  font-size: 1vw;
+}
+
+.contenedor_texto-espacio:hover {
+  opacity: 1;
+}
+
+@media (max-width: 500px) {
+  .contenedor_texto-espacio {
+    display: none;
+  }
+}
 /* ACTIVIDADES */
 .actividades {
   margin: 2vh;
@@ -212,10 +247,10 @@ footer {
     font-family: anuphan;
   }
   p:hover {
-    font-size: 18px;
+    font-size: 17px;
   }
   li {
-    font-size: 34px;
+    font-size: 18px;
   }
 }
 /* desktop */
@@ -223,6 +258,9 @@ footer {
   h1 {
     font-size: 4vw;
     font-weight: 200;
+  }
+  .titulos:hover {
+    font-size: 4.5vw;
   }
   h2 {
     font-size: 3vw;
@@ -233,18 +271,21 @@ footer {
   h5 {
     font-size: 1.5vw;
   }
+  h5:hover {
+    font-size: 4vw;
+  }
   h6 {
     font-size: 1vw;
   }
   p {
-    font-size: 15px;
+    font-size: 18px;
     font-family: anuphan;
   }
   p:hover {
-    font-size: 18px;
+    font-size: 20px;
   }
   li {
-    font-size: 34px;
+    font-size: 24px;
   }
 }
 /* Página realizada por:

@@ -4,10 +4,13 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Casa de Campo Don Claudio es un lugar creado con cariño para poder disfrutar de la tranquilidad del campo, la conexión con la naturaleza y el descanso.">
+        <meta name="Casa de campo, turismo rural, naturaleza, vacaciones, Don Claudio, Los Toldos, General Viamonte">
         <title>Conocenos - Casa de Campo Don Claudio</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="../sass/style.css">
-             <link rel="shortcut icon" href="../logos/SVG/Logo full SVG.svg">
+        <link rel="shortcut icon" href="../logos/SVG/Logo full SVG.svg">
     </head>
   
     <body class="">
@@ -30,13 +33,13 @@
                   <!-- LOGO -->
                     <div class="col-md-3 col-lg-2"> 
                       <a class="navbar-brand" href="../index.html">
-                        <img src="../logos/SVG/Logo_full_SVG.svg" alt="Logo"  class="logo" >
+                        <img src="../assets/logos/SVG/Logo_full_SVG.svg" alt="Logo"  class="logo" >
                       </a>
                     </div>
 
                  
                     <!-- BARRA -->
-                    <div class="collapse navbar-collapse flex-sm-wrap justify-content-sm-center justify-content-md-end" id="navbarTogglerDemo03">
+                    <div class="collapse navbar-collapse flex-sm-wrap justify-content-center justify-content-lg-end d-flex" id="navbarTogglerDemo03">
                       <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
                           <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
@@ -68,13 +71,13 @@
               <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner ">
                   <div class="carousel-item active justify-content-center " data-bs-interval="1000">
-                    <img src="../images/carousel/carousel_1.svg" class="d-block w-100" alt="..." class="imagen-carousel">
+                    <img src="../assets/images/carousel/carousel_1.svg" class="d-block w-100" alt="..." class="imagen-carousel">
                   </div>
                   <div class="carousel-item justify-content-center" data-bs-interval="2000">
-                    <img src="../images/carousel/carousel_2.svg" class="d-block w-100" alt="..." class="imagen-carousel">
+                    <img src="../assets/images/carousel/carousel_2.svg" class="d-block w-100" alt="..." class="imagen-carousel">
                   </div>
                   <div class="carousel-item justify-content-center" data-bs-interval="3000">
-                    <img src="../images/carousel/carousel_3.svg" class="d-block w-100" alt="..." class="imagen-carousel">
+                    <img src="../assets/images/carousel/carousel_3.svg" class="d-block w-100" alt="..." class="imagen-carousel">
                   </div>
                 </div>
 
@@ -128,34 +131,52 @@
         
         </section>
 
-        <!-- CONOCENOS -->
-        <section class="conocenos">
+         <!-- CONOCENOS-->
 
-            <div class="titulo-conocenos">
-                <h1>Conocenos</h1>
-            </div>
+         <section class="conocenos container-fluid flex-wrap justify-content-center d-flex">
 
-            <div class="contenido-conocenos">
-                
-                <div class="texto-conocenos">
+          <div class="row col-10 ccontainer-fluid titulo-conocenos" >
+              <h1 class="titulos" data-aos="fade-left"
+              data-aos-duration="3000"
+              data-aos-delay="1000">Conocenos</h1>
+          </div>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque pellentesque dolor, sit amet maximus arcu scelerisque vel. Fusce eget neque nec justo aliquam rhoncus eu eget nibh. 
-                    <br><br>    
-                    Vivamus magna eros, vulputate vitae rhoncus sed, dapibus vel purus. Vivamus quis ultrices nisi. Etiam volutpat et enim venenatis interdum. Curabitur accumsan ut nulla sed pretium. </p>
+          <div class="row contenido-conocenos d-flex justify-content-center col-10 container-fluid ">
+              
+              <div class="texto-conocenos col-10 col-xl-5">
 
-                </div>
+                  <p class="mt-3" data-aos="fade-right"
+                  data-aos-duration="3000"
+                  data-aos-delay="1500">Somos Clide y Fabián. Hemos construido este este encantador hospedaje con mucho amor y cariño y estaremos aquí para asegurarnos de que cada detalle de su estadía sea perfecto.</p>
+                  
 
-                <div class="imagen-conocenos">
+                  <p class="mt-3" data-aos="fade-right"
+                  data-aos-duration="3000"
+                  data-aos-delay="2000">Nuestro lugar es un refugio acogedor rodeado de naturaleza, donde podrán disfrutar de la tranquilidad y la belleza del entorno. Cuidamos cada rincón con esmero y nos enorgullece ofrecer un ambiente impecablemente decorado y equipado con todo lo que puedan necesitar.</p>
                     
-                    <img src="../images/conocenos/clide-fabian.jpg" alt="Fabián y Clide los esperan">
-                
-                </div>
-            </div>
-        </section>
+                  <h5 class="mt-3" data-aos="fade-right"
+                  data-aos-duration="3000"
+                  data-aos-delay="2500">¡Te esperamos!
+                  </h5>
+
+              </div>
+
+              <div class="imagen-conocenos col-10 col-xl-5"
+              data-aos="fade-right" 
+              data-aos-duration="3000"
+              data-aos-delay="2000" >
+                  
+                  <img src="../assets/images/conocenos/clide-fabian.jpg" alt="Fabián y Clide los esperan">
+              
+              </div>
+          </div>
+
+      </section>
         </main>
         
         <!-- FOOTER -->
-        <footer class="p-4">
+        <footer class="p-4" data-aos="fade-up"
+        data-aos-duration="3000">
           <div class="row g-3">
             <div class="col-6 col-md-3">
               <h3 class="">Casa de Campo</h3>
@@ -226,8 +247,14 @@
           </div>
 
         </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
-    </body>
+
+        <!-- CDN BOOTSTRAP -->        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- CDN AOS ANIMATION -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>    </body>
 </html>
 
 

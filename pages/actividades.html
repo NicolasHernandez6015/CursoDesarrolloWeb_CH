@@ -4,10 +4,13 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Casa de Campo Don Claudio es un lugar creado con cariño para poder disfrutar de la tranquilidad del campo, la conexión con la naturaleza y el descanso.">
+        <meta name="Casa de campo, turismo rural, naturaleza, vacaciones, Don Claudio, Los Toldos, General Viamonte">
         <title>Actividades - Casa de Campo Don Claudio</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="../sass/style.css">
-             <link rel="shortcut icon" href="../logos/SVG/Logo full SVG.svg">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../logos/SVG/Logo full SVG.svg">
     </head>
   
     <body class="">
@@ -30,13 +33,13 @@
                   <!-- LOGO -->
                     <div class="col-md-3 col-lg-2"> 
                         <a class="navbar-brand" href="../index.html">
-                            <img src="../logos/SVG/Logo_full_SVG.svg" alt="Logo"  class="logo" >
+                            <img src="../assets/logos/SVG/Logo_full_SVG.svg" alt="Logo"  class="logo" >
                       </a>
                     </div>
 
                  
                     <!-- BARRA -->
-                    <div class="collapse navbar-collapse flex-sm-wrap justify-content-sm-center justify-content-md-end" id="navbarTogglerDemo03">
+                    <div class="collapse navbar-collapse flex-sm-wrap justify-content-center justify-content-lg-end d-flex" id="navbarTogglerDemo03">
                       <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
                           <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
@@ -62,30 +65,53 @@
             <!-- FOTO CABECERA -->
             <section class="container-fluid g-0 ">
                 <div class="col-12 contenedor-imagen-principal">
-                    <img class="imagen-principal" width="100%" src="../images/actividades/ovejas.jpg" alt="Entrada">
+                    <img class="imagen-principal" width="100%" src="../assets/images/actividades/ovejas.jpg" alt="Entrada">
                 </div>
             </section>
 
             <!-- ACTIVIDADES -->
             <section class="actividades">
 
-                <div class="imagen-actividades">
-                    <img src="../images/actividades/conejo.webp" alt="Homero">
+                <div class="imagen-actividades"
+                data-aos="fade-right"
+                data-aos-duration="3000"
+                data-aos-delay="500">
+                    <img src="../assets/images/actividades/conejo.webp" alt="Homero">
 
                 </div>
 
                 <div class="texto-actividades">
-                    <h1>Actividades</h1>
-                        <p>Los Toldos es una pequeña ciudad al noroeste de la provincia de Buenos Aires, cabecera del partido de General Viamonte. 
-                        <br>
-                        <br>
-                        Podés visitar quesería donde se elaboran los mejores quesos de la región, podés realizar el camino de los museos rurales o conocer más de la cultura mapuche.
-                        <br>
-                        <br>
-                        Además podés conocer la casa donde pasó su infancia Eva Perón
-                        <br>
-                        <br>
-                        Para saber más clic <a href="https://www.generalviamonte.gob.ar/content/que-visitar">acá.</a></p> 
+                    <h1 class="titulos"
+                    data-aos="fade-left"
+                    data-aos-duration="3000"
+                    data-aos-delay="1000">Actividades</h1>
+                        
+                    <p class="mt-3"
+                    data-aos="fade-left"
+                    data-aos-duration="3000"
+                    data-aos-delay="1500">Los Toldos es una pequeña ciudad al noroeste de la provincia de Buenos Aires, cabecera del partido de General Viamonte. 
+                    </p>
+
+                    <p class="mt-3"
+                    data-aos="fade-left"
+                    data-aos-duration="3000"
+                    data-aos-delay="2000">
+                    Podés visitar quesería donde se elaboran los mejores quesos de la región, podés realizar el camino de los museos rurales o conocer más de la cultura mapuche.
+                    </p>
+
+                    <p class="mt-3"
+                    data-aos="fade-left"
+                    data-aos-duration="3000"
+                    data-aos-delay="2500">
+                    Además podés conocer la casa donde pasó su infancia Eva Perón
+                    </p>
+
+                    <p class="mt-3"
+                    data-aos="fade-left"
+                    data-aos-duration="3000"
+                    data-aos-delay="3000">
+                    Para saber más clic <a href="https://www.generalviamonte.gob.ar/content/que-visitar">acá.</a>
+                    </p> 
                     </div>        
 
                 </div>
@@ -93,7 +119,8 @@
         </main>
 
           <!-- FOOTER -->
-          <footer class="p-4">
+          <footer class="p-4" data-aos="fade-up"
+          data-aos-duration="3000">
             <div class="row g-3">
               <div class="col-6 col-md-3">
                 <h3 class="">Casa de Campo</h3>
@@ -165,7 +192,14 @@
 
           </footer>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- CDN BOOTSTRAP -->        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- CDN AOS ANIMATION -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+        
     </body>
 </html>
 

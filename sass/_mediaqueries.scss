@@ -25,8 +25,8 @@
         h6 {font-size: 1.0vw;}
         p {font-size: 15px;
         font-family: anuphan;}
-        p:hover {font-size: 18px;}
-        li {font-size: 34px;}
+        p:hover {font-size: 17px;}
+        li {font-size: 18px;}
         }
         
 
@@ -34,13 +34,15 @@
 @media (min-width: 768px) {
     h1 {font-size: 4vw;
     font-weight: 200;}
+    .titulos:hover {font-size: 4.5vw}
     h2 {font-size: 3vw;}
     h3 {font-size: 2vw;}
     h5 {font-size: 1.5vw;}
+    h5:hover {font-size: 4vw;}
     h6 {font-size: 1.0vw;}
-    p {font-size: 15px;
+    p {font-size: 18px;
     font-family: anuphan;}
-    p:hover {font-size: 18px;}
-    li {font-size: 34px;}
+    p:hover {font-size: 20px;}
+    li {font-size: 24px;}
     }
 
