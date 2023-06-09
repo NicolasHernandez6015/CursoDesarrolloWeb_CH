@@ -4,13 +4,20 @@
     background: rgba(242, 242, 242, 0.9);
     width: 100vw;
     z-index: 101;
+    
+  }
+
+  
+}    
+
     .contenedor-toggler {
         height: 5px;
     }
+
     .logo {
         height: 10vw;
       }
 
-    }
+
   .logo:hover { opacity: 0.75;
   }

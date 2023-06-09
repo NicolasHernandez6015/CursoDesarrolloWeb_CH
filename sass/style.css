@@ -25,10 +25,12 @@ a:hover {
   width: 100vw;
   z-index: 101;
 }
-.barra .contenedor-toggler {
+
+.contenedor-toggler {
   height: 5px;
 }
-.barra .logo {
+
+.logo {
   height: 10vw;
 }
 
@@ -207,7 +209,7 @@ footer {
     font-size: 5vw;
   }
   h5 {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
   }
   h6 {
     font-size: 2vw;
