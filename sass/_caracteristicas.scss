@@ -1,18 +1,23 @@
 /* CARACTERÍSTICAS */
 
-.cont-car {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    text-align: center;
-    
-    }
-    .cont-car img {
-        object-fit: contain;
-        width: 100%;
-        height: auto;
-        margin: 5px 0 5px 0;
+
+
+    .icono_caracteristicas {
+        height: 24px;
+        width: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    .img_caracteristica:hover {opacity: 0.5;}
+
+.accordion-button:focus {
+    border:white !important;
+}
+accordion-button:not(.collapsed) {
+    color: white 
+}
+
+.accordion { border: none !important
+}
+
