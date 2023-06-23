@@ -1,6 +1,5 @@
 /* GENERALES */
-*{
-    margin: 0;
+*{  margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: anuphan, goldsmith_vintage;
@@ -16,5 +15,33 @@
 
 
 a:hover { color: rgba(33, 37, 41, 0.24) !important
+}
+button:hover { background-color: $primary;
+    opacity: 1.0 !important;
+}
+
+.margen-negativo {
+    @media(min-width: 426px) {
+    margin-top: -5rem;
+    position: relative;
+    background: white;
+    }
+}
+
+.sombra {
+background-color: rgba($color: #f0f0f0, $alpha: 0.5);
+box-shadow: $sombreo/4 $sombreo/4 $sombreo/2 rgba(0, 0, 0, 0.22);
+backdrop-filter: blur(6px);
+border-radius: 0.2rem;
+}
+
+/* CARACTERÍSTICAS */
+
+.icono_caracteristicas {
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
