@@ -46,15 +46,19 @@
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="./conocenos.html">Conocenos</a>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Espacios</a>
-                        <li class="nav-item">
-                              <a class="nav-link" href="./actividades.html">Actividades</a>
-                        <li class="nav-item">
-                                <a class="nav-link" href="./contacto.html">Reservá</a>
                         </li>
-                              <!-- <li class="nav-item">  <a class="nav-link disabled">Disabled</a> -->
-                              </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="comodidades.html">Comodidades</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link disabled" href="#">Espacios</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./actividades.html">Actividades</a>
+                        </li>
+                        <li class="nav-item">
+                          <a data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling" class="nav-link" href="pages/contacto.html">Reservá</a>
+                        </li>
                       </ul>
                     </div>
                     
@@ -120,6 +124,52 @@
 
                 </div>
 
+            </section>
+
+            <!-- FORMULARIO -->
+
+            <section>
+
+              <div class="offcanvas offcanvas-start bg-primary" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                  <div class="offcanvas-header d-flex justify-content-end">
+                    <button type="button" class="btn-close btn-close-white"  data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+  
+              <h2 class="text-white text-center"> Realizá tu reserva</h2>
+              
+              <div class="container-fluid col-10 z-0 my-4 d-flex justify-content-center flex-wrap">
+  
+                <form class="col-12" action="nicolashernandez6015@gmail.com" method="post" enctype="text/plain">
+  
+                  <div class="col-10 mb-3 input-group-sm text-white">
+                      <br>
+                      <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido</label>
+                      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Tú nombre">
+                  </div>
+  
+                  <div class="col-10 mb-3 text-white input-group-sm">
+                      <label for="exampleFormControlInput1" class="form-label">Correo Electrónico</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tú correo electrónico">
+                  </div>
+  
+                  <div class="col-10 mb-3 text-white input-group-sm">
+                      <label for="exampleFormControlInput1" class="form-label">Número de teléfono</label>
+                      <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Tú número de teléfono">
+                  </div>
+  
+                  <div class="col-10 mb-3 text-white input-group-sm">
+                      <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Tú mensaje"></textarea> <rows="20"></textarea>
+                  </div>
+  
+                  <div class="col-10 mb-3 text-white  d-flex justify-content-end input-group-sm">
+                    <button type="submit" class="btn btn-secondary">Enviar</button>
+                  </div>
+  
+                </form>
+  
+              </div>
+              
             </section>
         
         

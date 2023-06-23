@@ -41,20 +41,25 @@
                     <!-- BARRA -->
                     <div class="collapse navbar-collapse flex-sm-wrap justify-content-center justify-content-lg-end" id="navbarTogglerDemo03">
                       <ul class="navbar-nav mb-2 mb-lg-0">
+
                         <li class="nav-item">
                           <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="conocenos.html">Conocenos</a>
+                        </li> 
+                        <li class="nav-item">
+                          <a class="nav-link" href="comodidades.html">Comodidades</a>
+                        </li>   
                         <li class="nav-item">
                             <a class="nav-link" href="espacios.html">Espacios</a>
+                        </li> 
                         <li class="nav-item">
                               <a class="nav-link disabled" href="#">Actividades</a>
+                        </li>      
                         <li class="nav-item">
-                                <a class="nav-link" href="contacto.html">Reservá</a>
+                          <a  data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling" class="nav-link" href="pages/contacto.html">Reservá</a>
                         </li>
-                              <!-- <li class="nav-item">  <a class="nav-link disabled">Disabled</a> -->
-                              </li>
                       </ul>
                     </div>
                     
@@ -117,6 +122,52 @@
                 </div>
             </section>
         </main>
+
+                    <!-- FORMULARIO -->
+
+                    <section>
+
+                      <div class="offcanvas offcanvas-start bg-primary" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                          <div class="offcanvas-header d-flex justify-content-end">
+                            <button type="button" class="btn-close btn-close-white"  data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                          </div>
+          
+                      <h2 class="text-white text-center"> Realizá tu reserva</h2>
+                      
+                      <div class="container-fluid col-10 z-0 my-4 d-flex justify-content-center flex-wrap">
+          
+                        <form class="col-12" action="nicolashernandez6015@gmail.com" method="post" enctype="text/plain">
+          
+                          <div class="col-10 mb-3 input-group-sm text-white">
+                              <br>
+                              <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido</label>
+                              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Tú nombre">
+                          </div>
+          
+                          <div class="col-10 mb-3 text-white input-group-sm">
+                              <label for="exampleFormControlInput1" class="form-label">Correo Electrónico</label>
+                              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tú correo electrónico">
+                          </div>
+          
+                          <div class="col-10 mb-3 text-white input-group-sm">
+                              <label for="exampleFormControlInput1" class="form-label">Número de teléfono</label>
+                              <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Tú número de teléfono">
+                          </div>
+          
+                          <div class="col-10 mb-3 text-white input-group-sm">
+                              <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Tú mensaje"></textarea> <rows="20"></textarea>
+                          </div>
+          
+                          <div class="col-10 mb-3 text-white  d-flex justify-content-end input-group-sm">
+                            <button type="submit" class="btn btn-secondary">Enviar</button>
+                          </div>
+          
+                        </form>
+          
+                      </div>
+                      
+                    </section>
 
           <!-- FOOTER -->
           <footer class="p-4" data-aos="fade-up"
