@@ -3,15 +3,13 @@ $primary: #6c757d;
 $secondary: #adb5bd;
 $card-border-width: 0;
 $accordion-border-width: 0.2rem; 
-$accordion-button-focus-box-shadow: 100; 
+$accordion-button-focus-box-shadow: 100;
 
-@import "generales";
-@import "navbar";
-@import "botonerita";
-@import "conocenos";
-@import "espacios";
-@import "actividades";
-@import "footer";
+/* layouts */
+@import "./layouts/generales";
+@import "./layouts/navbar";
+@import "./layouts/botonerita";
+@import "./layouts/footer";
 /* media_quories */
 @import "./media_quories/mobile";
 @import "./media_quories/tablet";

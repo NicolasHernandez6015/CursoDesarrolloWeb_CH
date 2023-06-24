@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* layouts */
 /* GENERALES */
 * {
   margin: 0;
@@ -49,6 +50,13 @@ button:hover {
   align-items: center;
 }
 
+/* CONOCENOS */
+.imagen-conocenos img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 /* BARRA DE NAVEGACIÓN */
 .barra {
   background: rgba(242, 242, 242, 0.9);
@@ -81,118 +89,6 @@ button:hover {
 
 svg:hover {
   opacity: 0.75;
-}
-
-/* CONOCENOS */
-.imagen-conocenos img {
-  width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
-/* ESPACIOS */
-.espacios {
-  margin: 2vh;
-  display: flex;
-  flex-direction: column;
-}
-
-.titulo-espacios {
-  margin: 1vh;
-  display: flex;
-  justify-content: center;
-}
-
-.contenido-espacios {
-  display: flex;
-  justify-content: center;
-}
-
-.caja-espacio {
-  margin: 1vh;
-  width: 30%;
-  height: 35vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.caja-espacio img {
-  width: 100%;
-  height: 120%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.contenedor_texto-espacio {
-  position: absolute;
-  overflow: hidden;
-  opacity: 0;
-  background-color: rgba(115, 115, 115, 0.75);
-  margin: auto;
-  width: 30%;
-  height: 31vw;
-  font-size: 18px;
-  color: white;
-  transition: opacity 0.3s;
-}
-.contenedor_texto-espacio p {
-  font-size: 1vw;
-  text-align: center;
-  margin-top: 50%;
-  margin-bottom: 50%;
-}
-.contenedor_texto-espacio p:hover {
-  font-size: 1vw;
-}
-
-.contenedor_texto-espacio:hover {
-  opacity: 1;
-}
-
-@media (max-width: 500px) {
-  .contenedor_texto-espacio {
-    display: none;
-  }
-}
-/* ACTIVIDADES */
-.actividades {
-  margin: 2vh;
-  display: flex;
-}
-
-.imagen-actividades {
-  width: 30%;
-  display: flex;
-}
-
-.imagen-actividades img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
-.texto-actividades {
-  margin: 1vh;
-  width: 70%;
-  height: 35vw;
-  display: flex;
-  flex-direction: column;
-  overflow: scroll;
-}
-
-.texto-actividades {
-  display: flex;
-  flex-direction: column;
-}
-
-.texto-actividades h1, .texto-actividades .h1 {
-  margin: 1vh;
-}
-
-.texto-actividades p {
-  margin: 1vh;
 }
 
 /* PÍE DE PÁGINA */
