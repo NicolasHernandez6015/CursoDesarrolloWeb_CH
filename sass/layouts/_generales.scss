@@ -1,16 +1,17 @@
 /* GENERALES */
-*{  margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: anuphan, goldsmith_vintage;
-}
 @font-face {
-    font-family: anuphan;
+    font-family: anuphan, Arial, Helvetica, sans-serif;
     src: url(fonts/Anuphan/Anuphan-VariableFont_wght.ttf);
 }
 @font-face {
     font-family: goldsmith_vintage;
     src: url(fonts/goldsmith_vintage.ttf);
+}
+
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: anuphan, goldsmith_vintage, Arial, Helvetica, sans-serif;
 }
 
 
